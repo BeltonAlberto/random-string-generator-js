@@ -1,5 +1,5 @@
 let output = document.querySelector('#text');
-output.addEventListener('click', randomingStrings(8));
+output.addEventListener('click', randomingStrings(5));
 
 // Can be usefull to create a unique IDs, Passwords, strings
 
