@@ -6,9 +6,8 @@ const output = document.querySelector('.text');
 
 output.addEventListener('click', function randomingStrings() {
     const CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYXAabcdefghijklmnopqrstuvwxyz1234567890';
-    const STRLENGTH = 5;
-    let randomString = ' ';
-    for (let i = 0; i <= STRLENGTH; i++) {
+    let randomString = '';
+    for (let i = 0; i <= 8; i++) {
         randomString += CHARS[~~(Math.random() * CHARS.length)];
     }
     console.log(randomString);
