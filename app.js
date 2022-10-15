@@ -11,5 +11,5 @@ output.addEventListener('click', function randomingStrings() {
         randomString += CHARS[~~(Math.random() * CHARS.length)];
     }
     console.log(randomString);
-    output.innerHTML = `${randomString}`;
+    this.innerHTML = `${randomString}`;
 });
